@@ -21,7 +21,7 @@ const PromptCard: React.FC<PromptCardProps> = ({ item }) => {
             {/* Image Section */}
             <div className="relative aspect-square overflow-hidden bg-gray-100">
                 <img
-                    src={item.imageUrl}
+                    src={item.imageUrl.startsWith('/') ? `${import.meta.env.BASE_URL}${item.imageUrl.slice(1)}` : item.imageUrl}
                     alt={item.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
