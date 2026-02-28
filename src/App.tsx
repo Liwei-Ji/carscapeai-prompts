@@ -25,14 +25,14 @@ const App: React.FC = () => {
 
           <div className="flex space-x-8">
             <a
-              href="#"
+              href="https://github.com/Liwei-Ji/carscapeai-prompts"
               className="text-gray-500 hover:text-gray-900 hover:scale-110 transition-all duration-300"
               aria-label="GitHub"
             >
               <Github className="h-8 w-8" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/64_jpw/"
               className="text-gray-500 hover:text-pink-600 hover:scale-110 transition-all duration-300"
               aria-label="Instagram"
             >
