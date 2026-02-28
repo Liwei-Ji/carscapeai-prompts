@@ -20,7 +20,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
 
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} PromptVerse. Created by Author.
+            &copy; {new Date().getFullYear()} CarscapeAI. Created by Liwei.
           </p>
 
           <div className="flex space-x-8">
