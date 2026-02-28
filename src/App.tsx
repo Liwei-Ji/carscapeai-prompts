@@ -25,7 +25,7 @@ const App: React.FC = () => {
 
           <div className="flex space-x-8">
             <a
-              href="https://github.com/Liwei-Ji/carscapeai-prompts"
+              href=""
               className="text-gray-500 hover:text-gray-900 hover:scale-110 transition-all duration-300"
               aria-label="GitHub"
             >
