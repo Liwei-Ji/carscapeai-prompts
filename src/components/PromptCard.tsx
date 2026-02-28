@@ -8,6 +8,7 @@ interface PromptCardProps {
 
 const PromptCard: React.FC<PromptCardProps> = ({ item }) => {
     const [isCopied, setIsCopied] = useState(false);
+    const [isLoaded, setIsLoaded] = useState(false);
 
     const handleCopy = useCallback(() => {
         navigator.clipboard.writeText(item.prompt).then(() => {
@@ -19,11 +20,15 @@ const PromptCard: React.FC<PromptCardProps> = ({ item }) => {
     return (
         <div className="group flex flex-col bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">
             {/* Image Section */}
-            <div className="relative aspect-square overflow-hidden bg-gray-100">
+            <div className={`relative aspect-square overflow-hidden bg-gray-200 ${!isLoaded ? 'animate-pulse' : ''}`}>
                 <img
                     src={item.imageUrl.startsWith('/') ? `${import.meta.env.BASE_URL}${item.imageUrl.slice(1)}` : item.imageUrl}
                     alt={item.title}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    onLoad={() => setIsLoaded(true)}
+                    className={`
+                        w-full h-full object-cover transition-all duration-700 group-hover:scale-105
+                        ${isLoaded ? 'opacity-100 scale-100' : 'opacity-0 scale-110'}
+                    `}
                     loading="lazy"
                 />
             </div>

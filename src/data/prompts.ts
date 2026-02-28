@@ -4,7 +4,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '1',
         title: '停車場',
-        imageUrl: '/images/1.png',
+        imageUrl: '/images/1.webp',
         prompt: '請完整保留原始汽車主體，汽車為畫面唯一焦點，不改變汽車的大小、比例、透視與拍攝角度。汽車需以真實實車比例呈現，避免任何模型車或縮小感，汽車佔畫面寬度約 60–70%，位於畫面中央，正面略微朝向觀者。背景設定為現代化、室內停車場的商業攝影場景，畫面為水平構圖，視角略微向下，空間寬敞且結構清晰。地面為平整的淺色混凝土停車位地板，僅佔畫面下方區域，不向遠方延伸，不形成道路或消失點。停車格線清楚，停車位編號「418」清晰可見並位於地面。背後牆面由水泥牆與大型矩形窗戶構成，窗戶後方可見水平百葉窗，窗外的綠色植物被模糊與遮蔽，僅作為柔和背景色塊存在。光線來自天花板上的長條形線性燈具，照明均勻、明亮、現代，無強烈戲劇化陰影，整體氛圍乾淨、簡潔、偏向高端汽車商業攝影風格。背景所有元素必須服從汽車尺度，確保汽車看起來是真實停放在空間中，而非被放置於過大的背景場景。',
         tags: ['室內停車場', '停車場', '室內'],
         cameraAngle: 'Eye Level',
@@ -12,7 +12,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '2',
         title: '賽車場',
-        imageUrl: '/images/2.png',
+        imageUrl: '/images/2.webp',
         prompt: '背景設定為專業賽道的 pit lane 靜態攝影場景，畫面為三段式深度結構：下方前景僅為淺色混凝土 pit lane 地面，佔畫面下方約 25–30%，地面平坦、無延伸道路、不形成消失點，僅在畫面最底部可見細微紅白邊線。中景位於汽車後方，包含低矮 pit wall、金屬欄杆與賽道圍欄，結構水平排列，用於建立正確比例與空間深度。遠景為整齊重複的賽道看台結構，後方可見低矮土丘或沙地地形，上方為大面積多雲天空，光線柔和、低對比、自然日光。整體背景必須為靜態、平衡、寫實的商業汽車攝影風格，不出現筆直道路、延伸路面、草地高於車輛、城市街道或動態模糊。',
         tags: ['賽道', '賽車'],
         cameraAngle: 'Eye Level',
@@ -20,7 +20,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '3',
         title: '野外',
-        imageUrl: '/images/3.png',
+        imageUrl: '/images/3.webp',
         prompt: '背景請改為寫實自然戶外環境，風格為汽車戶外攝影，而不是風景攝影。前景為低矮野生草地，草高度約在腳踝高度，必須明顯低於汽車輪胎，不可高於輪胎中心。草地需要具有真實紋理與自然隨機分佈，靠近輪胎處的草略微被壓平，呈現重量與接地關係。中景保持簡潔草地與少量低矮灌木，避免過度開闊或深遠的風景感。背景為中距離森林樹線，由闊葉樹與濃密樹冠構成，但不可佔據畫面主體比例，也不要產生遙遠風景視角。相機視角為人眼高度或略低角度，與汽車實際拍攝一致，不能是空拍或遠景。光線為自然白天散射光，比例與透視必須正確，汽車下方要有真實接觸陰影與地面陰影，使汽車看起來真實停放在草地上。整體風格為高寫實汽車攝影，真實比例與尺度，不能出現模型感、玩具感或 CGI 感。',
         tags: ['草地', '戶外'],
         cameraAngle: 'Eye Level',
@@ -28,7 +28,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '4',
         title: '荒漠',
-        imageUrl: '/images/4.png',
+        imageUrl: '/images/4.webp',
         prompt: '背景請改為寫實荒漠自然戶外環境，整體風格為汽車荒野戶外攝影，而非風景攝影。前景為粗糙沙土與淺棕至暖褐色乾燥土壤地面，地表覆蓋低矮乾草、矮灌木與零散岩石碎片。 植被高度必須明顯低於汽車輪胎中心，不可高於輪胎，分佈自然且具有隨機方向與高度變化 靠近輪胎處的沙土與乾草略微被壓實，呈現真實重量與接地關係，不可出現漂浮感。中景為略微起伏的自然荒漠坡地與礫石地貌，地形層次清楚但保持簡潔，植被稀疏且自然，避免過度開闊或強烈縱深感。背景為中距離的自然旱地山坡與荒漠丘陵，土壤色調介於暖褐色至焦土色之間。 背景不可佔據畫面主體比例，也不可形成遙遠壯闊風景視角。相機視角為人眼高度或略低角度，符合真實汽車拍攝視角，不可使用空拍、俯視或遠距離拍攝。光線為清晰自然的白天日光，陰影自然柔和且方向正確。 汽車下方必須具有真實接觸陰影與地面陰影，使汽車看起來真實停放於荒漠地面。整體風格為高寫實自然汽車攝影，比例、尺度與透視必須正確，嚴禁模型感、玩具感或 CGI 感。',
         tags: ['荒漠', '矮灌木'],
         cameraAngle: 'Eye Level',
@@ -36,7 +36,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '5',
         title: '月球表面',
-        imageUrl: '/images/5.png',
+        imageUrl: '/images/5.webp',
         prompt: '背景設定為真實月球表面環境，拍攝風格為寫實攝影，而非插畫或科幻概念圖。前景為月球表面地形，覆蓋細緻的灰白色月壤（lunar regolith），表面粗糙不平，具有細小岩石、碎石與壓實痕跡，地面尺度與真實全尺寸汽車比例一致，月壤顆粒細小，不可誇張放大。汽車下方的月壤略微被壓實，形成真實的重量接觸關係，產生清晰但柔和的接觸陰影，使汽車穩定停放於地中景為緩慢起伏的月球地形，低矮岩丘與隕石坑邊緣，無過度陡峭地貌，避免誇張比例。背景遠方的太空中可清楚看到地球，地球呈現真實比例大小，位於遠距離太空中，部分被陽光照亮，顯示藍白色雲層與海洋輪廓，不可過大、不佔據畫面主體。天空為深黑色太空背景，無大氣層漸層，星星稀疏且細小，不密集、不搶主體。光源為單一強烈太陽光，來自一側，形成清晰且方向一致的陰影，整體對比偏高但細節保留完整。相機視角為真實地面攝影視角，與原始汽車照片一致，非廣角誇張、非遠景、非空拍。整體風格為高寫實月球攝影合成，比例正確，透視合理，無模型感、無玩具感、無插畫風格。',
         tags: ['月球表面', '外太空'],
         cameraAngle: 'Eye Level',
@@ -44,7 +44,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '6',
         title: '雪地',
-        imageUrl: '/images/6.png',
+        imageUrl: '/images/6.webp',
         prompt: '背景設定為真實戶外冬季雪地場景。前景為大面積平整且被壓實的積雪地面，雪面略帶粗糙顆粒感，可見淡淡的車輛行駛痕跡與自然磨損紋理。雪地需呈現冷色調反射光，並在汽車輪胎下方出現明確且自然的接觸陰影與承重感，確保汽車穩定站立於地面。中景為稀疏排列的針葉樹與低矮灌木叢，樹木表面覆蓋薄雪，間距自然，不形成密集森林。可出現高度較低的護欄或圍欄結構，但比例需保持遠離汽車，不可過於突出。遠景為連綿起伏的低矮山脈，山體覆蓋深色森林與局部積雪，距離感明確但不誇張，不可拉近、不形成壓迫背景。天空為晴朗淡藍色冬季天空，雲層極少或無明顯雲層，整體光線為低角度自然日光，色溫偏冷。陰影方向需與原始汽車照片一致，陰影略長但柔和。相機視角為真實戶外汽車攝影視角，畫面緊密裁切於汽車與地面關係，禁止廣角誇張透視、禁止風景攝影構圖、禁止拉遠鏡頭。整體風格為高寫實戶外汽車實拍效果，比例正確、透視自然，無模型感、無微縮場景感、無貼圖感。',
         tags: ['冬季', '雪地'],
         cameraAngle: 'Eye Level',
@@ -52,7 +52,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '7',
         title: '富士山',
-        imageUrl: '/images/7.png',
+        imageUrl: '/images/7.webp',
         prompt: '背景設定為真實戶外場景，畫面遠處為巨大雪白火山山峰富士山（Mt. Fuji）坐落於背景中，富士山雪冠清晰、比例正確、佔畫面上方約三分之一，山體輪廓與遠景樹林自然銜接。前景為平坦灰色公路柏油路面，路面紋理真實可見，汽車輪胎與地面形成自然接觸陰影與重量感。中景為稀疏的裸樹與低矮灌木，植被高度低於汽車引擎蓋，分布自然。天空為晴朗淡藍色自然光，雲量稀少，光線從一側照射，陰影方向一致且自然。相機視角為近距離實拍汽車角度，畫面緊密裁切於車輛與前景，不出現遙遠街道或壓縮遠景效果。整體風格為高寫實戶外汽車攝影與富士山地景合成，比例正確、透視自然、光影一致、無微縮模型感、無貼圖感。',
         tags: ['富士山', '山峰'],
         cameraAngle: 'Eye Level',
@@ -60,7 +60,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '8',
         title: '越野拉力賽',
-        imageUrl: '/images/8.png',
+        imageUrl: '/images/8.webp',
         prompt: '背景設定為真實越野拉力賽場景。前景為粗糙的泥土或沙礫路面，地面紋理清晰可見，帶有泥濘、碎石效果，作為近距離的前景地面底座中景為稀疏灌木、草叢及低矮植被，植被高度低於車身引擎蓋，分布自然，不形成人工綠植排列。遠景為山脈與丘陵，山體具有岩石與暗色森林構成，背景山巒連綿但不壓迫前景視覺。天空為明亮色調，帶有輕微雲層或乾淨藍天，自然光線照射，陰影與原始汽車照片陰影方向一致。相機視角為近距離戶外攝影視角，畫面裁切緊貼汽車與背景接合處，禁止出現城市、建築或人工道路標誌。',
         tags: ['越野拉力賽', '泥土'],
         cameraAngle: 'Eye Level',
@@ -68,7 +68,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '9',
         title: 'Open field terrain',
-        imageUrl: '/images/9.png',
+        imageUrl: '/images/9.webp',
         prompt: 'The background should depict an open natural environment in a static automotive photography style, using a horizontal composition and a normal eye-level or slightly downward camera angle. Avoid low-angle or ultra-wide perspectives.Foreground: a cracked, weathered asphalt surface limited to the lower 25–30% of the frame. The ground is flat and does not extend into the distance, forming no straight road or vanishing point.Midground: low, open field terrain with short vegetation clearly lower than the vehicle, serving only as a spatial transition layer without enclosing the car.Background: softly contoured distant mountains and a continuous line of evergreen trees near the horizon, with compressed scale to prevent the landscape from overpowering the vehicle.The sky is overcast with layered dark gray and white clouds, providing diffused, even natural lighting that emphasizes the vehicle’s form and environmental textures.',
         tags: ['Open field terrain', 'Static', 'Outdoor'],
         cameraAngle: 'Eye Level',
@@ -76,7 +76,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '10',
         title: '沙漠',
-        imageUrl: '/images/10.png',
+        imageUrl: '/images/10.webp',
         prompt: '僅替換背景為開闊沙漠環境中的靜態公路攝影場景，畫面為水平構圖，視角為正常人眼高度或略微向下，避免低角度或誇張透視。前景為平坦的瀝青公路表面，僅佔畫面下方約 25–30%，可見簡潔的黃色道路標線，但路面不向遠方延伸，不形成筆直消失點或強烈透視效果。中景為低矮、起伏緩和的沙漠地形與沙丘，位於道路兩側，比例受控，不高於汽車視覺主體。遠景為壓縮比例的沙漠地平線與廣闊天空，天空佔畫面上方較大比例，雲層分散、自然、光線柔和。整體光線為自然日光，陰影柔和，畫面風格為高端、寫實的汽車商業攝影。所有背景元素必須服從汽車尺度，確保汽車看起來是真實停放於場景中，而非被放入過於廣大的沙漠環境。',
         tags: ['沙漠', '公路'],
         cameraAngle: 'Eye Level',
@@ -84,7 +84,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '11',
         title: '越野',
-        imageUrl: '/images/11.png',
+        imageUrl: '/images/11.webp',
         prompt: '請完整保留原始汽車主體，禁止重新生成或修改汽車的外觀、比例、透視與拍攝角度。汽車為畫面唯一焦點，需以真實實車比例呈現，避免任何模型車或縮小感，汽車佔畫面寬度約 60–70%，位於畫面中央，車身略微朝向觀者。僅替換背景為森林環境中的靜態越野攝影場景，畫面為水平構圖，視角為正常人眼高度或略微向下，避免低角度與誇張透視。前景為平坦、短距離的泥土或碎石地面，僅佔畫面下方約 25–30%，地面不向遠方延伸，不形成筆直道路或消失點。中景為低矮的森林地表與灌木植被，植被高度受控，明顯低於汽車車頂，不包圍、不遮擋車輛，只作為空間層次的過渡。遠景為直立排列的樹幹與茂密但後退的樹冠，背景略有柔和模糊，但不得產生強烈景深或空間拉伸效果。光線為自然日光，柔和且均勻，陰影不強烈，用於強調車身材質與越野細節。整體風格為寫實、高端的越野汽車商業攝影，背景比例必須完全服從汽車尺度，確保汽車看起來是真實停放於場景中，而非被放入過大的森林環境。',
         tags: ['越野', '森林'],
         cameraAngle: 'Original',
@@ -92,7 +92,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '12',
         title: '城市',
-        imageUrl: '/images/12.png',
+        imageUrl: '/images/12.webp',
         prompt: '僅替換背景為現代城市，保留照片裡所有元素。只需要更換白色背景。將白色背景更換成以下說明。前景為平整的灰色鋪石或石板路面，僅佔畫面下方約 25–30%，作為靜態停放地面，不向遠方延伸，不形成街道或消失點。中景為汽車後方的建築立面，包括玻璃與磚材質的現代建築外牆，建築以垂直構圖存在，間距受控，不形成狹長街道或深度延伸。輔助元素為零散配置的綠色樹木，位於建築之間或前方，僅用於柔化畫面，不包圍、不遮擋車輛。光線為明亮自然日光（接近中午或下午），陰影清晰但不戲劇化，用於強調車身金屬反射與建築材質細節。整體風格為寫實、高端的都市汽車商業攝影，背景比例必須完全服從汽車尺度，確保汽車看起來是真實停放於城市空間中，而非被放入過大的城市場景。',
         tags: ['城市', '戶外'],
         cameraAngle: 'Original',
@@ -100,7 +100,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '13',
         title: 'City',
-        imageUrl: '/images/13.png',
+        imageUrl: '/images/13.webp',
         prompt: 'Replace only the background with a modern urban environment in a high-end automotive commercial photography style. The composition is horizontal, using a normal eye-level viewing angle, avoiding low-angle or exaggerated perspective.Foreground: a flat brick-paved surface limited to the lower 25–30% of the frame, serving as a static parking ground. The surface must not extend into the distance or form a street, road, or vanishing point.Midground: architectural facades behind the vehicle, including modern brick buildings and glass-clad structures. These buildings function as vertical background planes with controlled spacing, avoiding deep urban corridors or street canyons.Supporting elements: a small number of urban trees placed between or behind buildings, used only to soften the composition without surrounding or obscuring the vehicle.Lighting is bright and even natural daylight, producing clear but balanced shadows that enhance the car’s metallic finish and architectural textures.The overall style is photorealistic, refined, and luxurious urban automotive commercial photography. All background elements must conform to the vehicle’s real-world scale, ensuring the car appears naturally placed within the city environment rather than inserted into an oversized urban scene.',
         tags: ['Urban', 'Refined', 'outdoor'],
         cameraAngle: 'Original',
@@ -108,7 +108,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '14',
         title: '沙灘',
-        imageUrl: '/images/14.png',
+        imageUrl: '/images/14.webp',
         prompt: '僅替換背景為沙灘，保留照片裡所有元素。只需要更換白色背景。將白色背景更換成以下說明。前景（下方約 25–30%）**為平整、乾淨的淺色沙灘地面，作為靜態停車表面，沙灘不得向遠方延伸，不形成大面積空曠沙地。中景（畫面中段）為靠近岸邊的海水與細小白色浪花，海平線位置固定且清晰，不可過遠，作為視覺背景牆。可出現一條低矮、水平延伸的防波堤結構，但需距離受控，不可主導畫面。遠景僅允許一個小型島嶼或陸地輪廓，位於畫面右側或遠方，比例極小，用於增加層次感，不可成為視覺重心。天空（上方約 35–40%）為明亮藍天，帶有柔和、分散的白色雲朵，光線強但均勻，免戲劇化雲層或壓迫感構圖。整體氛圍為開闊、寧靜、清爽且高級的海岸汽車廣告風格，所有背景元素必須嚴格服從汽車比例，確保汽車看起來是真實停放在海灘場景中，而非被縮小放入風景照。',
         tags: ['沙灘', '海邊'],
         cameraAngle: 'Eye Level',
@@ -116,7 +116,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '15',
         title: 'City',
-        imageUrl: '/images/15.png',
+        imageUrl: '/images/15.webp',
         prompt: 'Please fully retain the original car as the only focal subject. Do not regenerate or alter the car’s size, proportions, perspective, lens compression, lighting direction, or camera angle. The vehicle must remain at true real-world scale, occupying approximately 60–70% of the frame width, positioned centrally with the front slightly angled toward the viewer. Avoid any miniature or model-car appearance.The scene uses a horizontal composition in a static commercial automotive photography style. The camera angle is normal eye-level or slightly downward. Avoid low-angle shots, dramatic perspective distortion, or ultra-wide lens effects.Foreground: a flat, open asphalt surface occupying only the lower portion of the frame. The ground is level and does not extend into the distance. It must not create a road effect, vanishing point, or directional perspective lines. A subtle light-brown boundary strip separates the asphalt from the building base.Midground: a modern white multi-story building positioned centrally behind the car, scaled strictly to the vehicle’s proportions. The building must not overpower the car in height or depth. The façade is clean white with neatly aligned light-blue rectangular windows arranged in a consistent grid. Architectural lines are straight, minimal, and contemporary.The lower level of the building includes visible doors, windows, and subtle exposed piping details. On one side, a clearly defined entrance area is visible. Next to the entrance, place a realistically scaled green trash bin and a blue-covered cart. These elements must remain secondary and proportionally smaller than the vehicle.Background (upper portion): the building features a flat roof with two circular ventilation units positioned symmetrically. Above the structure is a clear blue sky with bright natural daylight. The sky occupies the upper portion only and should not dominate the composition.Lighting: bright, even daylight illumination with soft, natural shadows. No dramatic contrast or cinematic lighting. The atmosphere should feel clean, modern, and commercial, similar to high-end automotive exterior photography.All background elements must strictly conform to the car’s scale to ensure the vehicle appears naturally parked in the environment rather than composited into an oversized architectural scene. The car remains visually dominant at all times.',
         tags: ['Urban', 'Refined', 'outdoor'],
         cameraAngle: 'Eye Level',
@@ -124,7 +124,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '16',
         title: '沙灘',
-        imageUrl: '/images/16.png',
+        imageUrl: '/images/16.webp',
         prompt: '僅替換背景為沙灘，保留照片裡所有元素。只需要更換白色背景。將白色背景更換成以下說明。前景（下方約 25–30%）**為平整、乾淨的淺色沙灘地面，作為靜態停車表面，沙灘不得向遠方延伸，不形成大面積空曠沙地。中景（畫面中段）為靠近岸邊的海水與細小白色浪花，海平線位置固定且清晰，不可過遠，作為視覺背景牆。可出現一條低矮、水平延伸的防波堤結構，但需距離受控，不可主導畫面。遠景僅允許一個小型島嶼或陸地輪廓，位於畫面右側或遠方，比例極小，用於增加層次感，不可成為視覺重心。天空（上方約 35–40%）為明亮藍天，帶有柔和、分散的白色雲朵，光線強但均勻，免戲劇化雲層或壓迫感構圖。整體氛圍為開闊、寧靜、清爽且高級的海岸汽車廣告風格，所有背景元素必須嚴格服從汽車比例，確保汽車看起來是真實停放在海灘場景中，而非被縮小放入風景照。',
         tags: ['沙灘', '海邊'],
         cameraAngle: 'Original',
@@ -132,7 +132,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '17',
         title: '沙灘',
-        imageUrl: '/images/17.png',
+        imageUrl: '/images/17.webp',
         prompt: '僅替換背景為沙灘，保留照片裡所有元素。只需要更換白色背景。將白色背景更換成以下說明。前景（下方約 25–30%）**為平整、乾淨的淺色沙灘地面，作為靜態停車表面，沙灘不得向遠方延伸，不形成大面積空曠沙地。中景（畫面中段）為靠近岸邊的海水與細小白色浪花，海平線位置固定且清晰，不可過遠，作為視覺背景牆。可出現一條低矮、水平延伸的防波堤結構，但需距離受控，不可主導畫面。遠景僅允許一個小型島嶼或陸地輪廓，位於畫面右側或遠方，比例極小，用於增加層次感，不可成為視覺重心。天空（上方約 35–40%）為明亮藍天，帶有柔和、分散的白色雲朵，光線強但均勻，免戲劇化雲層或壓迫感構圖。整體氛圍為開闊、寧靜、清爽且高級的海岸汽車廣告風格，所有背景元素必須嚴格服從汽車比例，確保汽車看起來是真實停放在海灘場景中，而非被縮小放入風景照。',
         tags: ['沙灘', '海邊'],
         cameraAngle: 'Original',
@@ -140,7 +140,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '18',
         title: '沙灘',
-        imageUrl: '/images/18.png',
+        imageUrl: '/images/18.webp',
         prompt: '僅替換背景為沙灘，保留照片裡所有元素。只需要更換白色背景。將白色背景更換成以下說明。前景（下方約 25–30%）**為平整、乾淨的淺色沙灘地面，作為靜態停車表面，沙灘不得向遠方延伸，不形成大面積空曠沙地。中景（畫面中段）為靠近岸邊的海水與細小白色浪花，海平線位置固定且清晰，不可過遠，作為視覺背景牆。可出現一條低矮、水平延伸的防波堤結構，但需距離受控，不可主導畫面。遠景僅允許一個小型島嶼或陸地輪廓，位於畫面右側或遠方，比例極小，用於增加層次感，不可成為視覺重心。天空（上方約 35–40%）為明亮藍天，帶有柔和、分散的白色雲朵，光線強但均勻，免戲劇化雲層或壓迫感構圖。整體氛圍為開闊、寧靜、清爽且高級的海岸汽車廣告風格，所有背景元素必須嚴格服從汽車比例，確保汽車看起來是真實停放在海灘場景中，而非被縮小放入風景照。',
         tags: ['沙灘', '海邊'],
         cameraAngle: 'Original',
@@ -148,7 +148,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '19',
         title: '富士山',
-        imageUrl: '/images/19.png',
+        imageUrl: '/images/19.webp',
         prompt: '背景設定為真實戶外場景，畫面遠處為巨大雪白火山山峰富士山（Mt. Fuji）坐落於背景中，富士山雪冠清晰、比例正確、佔畫面上方約三分之一，山體輪廓與遠景樹林自然銜接。前景為平坦灰色公路柏油路面，路面紋理真實可見，汽車輪胎與地面形成自然接觸陰影與重量感。中景為稀疏的裸樹與低矮灌木，植被高度低於汽車引擎蓋，分布自然。天空為晴朗淡藍色自然光，雲量稀少，光線從一側照射，陰影方向一致且自然。相機視角為近距離實拍汽車角度，畫面緊密裁切於車輛與前景，不出現遙遠街道或壓縮遠景效果。整體風格為高寫實戶外汽車攝影與富士山地景合成，比例正確、透視自然、光影一致、無微縮模型感、無貼圖感。',
         tags: ['富士山', '山峰'],
         cameraAngle: 'Low Angle',
@@ -156,7 +156,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '20',
         title: 'Front yard',
-        imageUrl: '/images/20.png',
+        imageUrl: '/images/20.webp',
         prompt: 'Generate background only.The building must appear in mid-to-far distance scale.Its visible height must not exceed 1.5x the visual height of the vehicle.The building should occupy only the rear 40% of the frame and must not approach the camera.Architecture: modern flat-roof house with horizontal lines, glass panels, and wooden facade.Details should remain subtle and secondary.Ground: residential driveway with concrete or stone texture, perspective must align exactly with the vehicle’s existing angle. No strong vanishing point.Depth of field: background slightly softer than the car.Brightness: background slightly darker than the vehicle.Negative constraints:No dominant architecture.No close.building.No real estate style framing.No dramatic perspective',
         tags: ['Front', 'outdoor'],
         cameraAngle: 'Low Angle',
@@ -164,7 +164,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '21',
         title: '洗車',
-        imageUrl: '/images/21.png',
+        imageUrl: '/images/21.webp',
         prompt: '僅替換背景環境。嚴格保持原始構圖與鏡頭距離，不得拉遠鏡頭、不得縮小人物或汽車、不得改變主體比例。人物、汽車、洗車動作、水管、工具與洗手水台必須與原圖尺寸完全一致，畫面占比不得縮小。背景為住宅前方混凝土。地面透視完全延續原始照片，不得改變攝影角度。混凝土上面不得有任何線條，左側為低矮清水混凝土圍牆，圍牆高度不得超過人物肩膀，並保持低存在感。表面帶有自然模板接縫紋理與輕微色差，不規則細微水漬與使用痕跡，質感為真實戶外住宅材質。圍牆上方為棕色木質橫向柵欄，木材帶有自然木紋變化、些微色差與細小固定金屬件，呈現輕微日曬風化質感，但整體對比降低，不可搶眼。光線方向必須與原始照片一致。整體氛圍為住宅車道洗車場景，但人物與汽車仍為唯一焦點。',
         tags: ['洗車', 'outdoor'],
         cameraAngle: 'Original',
@@ -172,7 +172,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '22',
         title: '賽車場',
-        imageUrl: '/images/22.png',
+        imageUrl: '/images/22.webp',
         prompt: '僅替換遠景背景層。完整保留原始汽車主體、比例、透視、角度與動態效果，不得縮小或重新生成車輛。地面不得重新生成整條賽道。僅延續原始照片中的地面材質與透視方向，使地面自然向後延伸。遠景背景為壓縮式賽道環境元素。畫面中段至後段可出現藍白安全護欄，但僅形成一條橫向背景帶狀元素，不得產生明顯消失點。護欄高度不得超過車尾尾翼高度。遠景可有模糊場地結構或低矮看台，但僅為水平線背景層，不可形成空間縱深。背景需帶有非常輕微橫向運動模糊，模糊方向與車行方向一致。模糊程度低於車輪。天空僅保留窄條區域，不可佔據大面積。整體背景空間需壓縮，使車輛在畫面中維持原始體積與視覺重量。背景亮度與飽和度低於車體黃色。',
         tags: ['賽道', '賽車'],
         cameraAngle: 'Original',
@@ -180,7 +180,7 @@ export const mockPrompts: PromptItem[] = [
     {
         id: '23',
         title: '賽車場',
-        imageUrl: '/images/23.png',
+        imageUrl: '/images/23.webp',
         prompt: '請保留原始圖片中的汽車主體，僅替換背景場景；汽車為畫面前景焦點，畫面中不改變其比例、透視、細節與光線方向。背景為專業國際級賽車場環境。地面為高品質深灰色瀝青賽道表面，具有真實細膩的柏油顆粒紋理，可見自然磨耗痕跡、橡膠胎痕與微弱深淺變化。賽道表面略帶啞光質感，在陰天條件下呈現低反射效果。賽道邊緣具有清晰白色邊線與紅白相間的路緣石（curbing），路緣石表面帶有使用磨損痕跡與細微髒污。畫面中遠景為低矮安全護欄結構，護欄為金屬或混凝土材質，前方設有藍白或灰白配色的防撞護牆。護欄排列整齊，呈水平延展狀態，不形成誇張透視。護欄後方為整齊修剪的綠色草地，草地顏色自然，帶有深淺層次與局部陰影變化。更遠處可隱約看到模糊化的賽道設施，例如低矮看台結構或場地圍網，但細節不突出。天空為陰天狀態，雲層均勻分布，呈淺灰與淡藍色調混合，光線為自然漫射光，整體光感柔和均勻，無強烈陰影對比。整體色彩基調偏冷色調，寫實攝影風格，專業汽車運動氛圍，乾淨、有秩序、具真實運動場地感。整體風格為高寫實近距離汽車攝影合成，比例正確、透視合理、無貼圖感、無模型感、無玩具感。',
         tags: ['賽道', '賽車'],
         cameraAngle: 'Original',
