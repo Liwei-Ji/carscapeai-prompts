@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+# 🏎️ CarscapeAI Prompts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CarscapeAI Prompts** is a high-end AI prompt tool specifically designed for automotive photography enthusiasts and creators. Through meticulously tuned instructions, it helps users transform ordinary car photos into cinematic, world-class visual art.
 
-Currently, two official plugins are available:
+[🚀 Click here for Live Demo](https://liwei-ji.github.io/carscapeai-prompts/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **Professional-Grade Prompts**: Covers a wide range of realistic styles, including Modern Urban, Race Tracks, Winter Snow, and even Lunar Surface.
+-   **Technical Metadata**: Every prompt includes a specific **Camera Angle** recommendation to ensure accurate visual results.
+-   **One-Click Copy**: Instantly copy high-quality, tested prompts to use in AI models like Gemini.
+-   **Dynamic Filtering**: An intuitive Tag-based filtering system helps you find the perfect inspiration among dozens of scenes.
+-   **Optimized for Gemini**: Prompt structures are specifically tuned for Gemini’s image understanding and generation logic, maintaining car details and proportions.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ How It Works
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1.  **Prepare a Photo**: Take a clear photo of your car (a plain background is recommended).
+2.  **Pick a Style**: Browse CarscapeAI and click **Copy** on the style that fits your vision.
+3.  **Generate in Gemini**: Upload your photo to [Gemini](https://gemini.google.com/), paste the prompt, and watch the transformation.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🚀 Tech Stack
+
+-   **Framework**: React 18 + TypeScript
+-   **Build Tool**: Vite
+-   **Styling**: Tailwind CSS
+-   **Icons**: Lucide-React
+-   **Deployment**: GitHub Pages (Automated via GitHub Actions)
+
+---
+
+## 💻 Local Setup
+
+If you wish to run this project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Liwei-Ji/carscapeai-prompts.git
+
+# 2. Enter the directory
+cd carscapeai-prompts
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🔗 Connect
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+-   **Author**: Liwei
+-   **Instagram**: [@64_jpw](https://www.instagram.com/64_jpw/)
