@@ -2,7 +2,8 @@
 
 **CarscapeAI Prompts** is a high-end AI prompt tool specifically designed for automotive photography enthusiasts and creators. Through meticulously tuned instructions, it helps users transform ordinary car photos into cinematic, world-class visual art.
 
-[🚀 Click here for Live Demo](https://liwei-ji.github.io/carscapeai-prompts/)
+
+![CarscapeAI Website Screenshot](./screenshots/hero-screenshot.webp)
 
 ---
 
