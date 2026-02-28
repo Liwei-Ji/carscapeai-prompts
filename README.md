@@ -25,13 +25,11 @@
 
 ---
 
-## Tech Stack
+## Built With
 
--   **Framework**: React 18 + TypeScript
--   **Build Tool**: Vite
--   **Styling**: Tailwind CSS
--   **Icons**: Lucide-React
--   **Deployment**: GitHub Pages (Automated via GitHub Actions)
+- **React & TypeScript**: Delivering a responsive and type-safe user experience.
+- **Tailwind CSS**: Crafted with a modern, high-end aesthetic.
+- **Vite**: Optimized for lightning-fast performance and efficient asset handling.
 
 ---
 
