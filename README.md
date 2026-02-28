@@ -1,4 +1,4 @@
-# 🏎️ CarscapeAI Prompts
+# CarscapeAI Prompts
 
 **CarscapeAI Prompts** is a high-end AI prompt tool specifically designed for automotive photography enthusiasts and creators. Through meticulously tuned instructions, it helps users transform ordinary car photos into cinematic, world-class visual art.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 -   **Professional-Grade Prompts**: Covers a wide range of realistic styles, including Modern Urban, Race Tracks, Winter Snow, and even Lunar Surface.
 -   **Technical Metadata**: Every prompt includes a specific **Camera Angle** recommendation to ensure accurate visual results.
@@ -17,7 +17,7 @@
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 1.  **Prepare a Photo**: Take a clear photo of your car (a plain background is recommended).
 2.  **Pick a Style**: Browse CarscapeAI and click **Copy** on the style that fits your vision.
@@ -25,7 +25,7 @@
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 -   **Framework**: React 18 + TypeScript
 -   **Build Tool**: Vite
@@ -35,7 +35,7 @@
 
 ---
 
-## 💻 Local Setup
+## Local Setup
 
 If you wish to run this project locally:
 
@@ -55,7 +55,7 @@ npm run dev
 
 ---
 
-## 🔗 Connect
+## Connect
 
 -   **Author**: Liwei
 -   **Instagram**: [@64_jpw](https://www.instagram.com/64_jpw/)
