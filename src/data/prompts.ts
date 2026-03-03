@@ -217,5 +217,13 @@ export const mockPrompts: PromptItem[] = [
         tags: ['Track', 'Racing', 'Pit Lane'],
         cameraAngle: 'High Angle',
     },
+    {
+        id: '28',
+        title: 'Rally Race',
+        imageUrl: '/images/28.webp',
+        prompt: 'The background is set in a realistic off-road rally scene. The foreground is a rough dirt or gravel road surface, with clear ground textures and mud/gravel effects, serving as a close-up ground base. The midground consists of sparse shrubs, grasses, and low vegetation, with the vegetation height lower than the vehicle\'s hood and naturally distributed, not forming an artificial green plant arrangement. The background is composed of mountains and hills, with the mountains made of rocks and dark forests, the background mountain range continuous but not overpowering the foreground visual. The sky is bright-toned with light clouds or clean blue sky, with natural light shining, and shadows consistent with those in the original car photo. The camera angle is a close-up outdoor photography perspective, with the frame cropped tightly to the junction of the vehicle and background, strictly avoiding cities, buildings, or artificial road signs.',
+        tags: ['Rally', 'Off-road', 'Dirt'],
+        cameraAngle: 'Low Angle',
+    }
 
 ];
