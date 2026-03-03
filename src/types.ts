@@ -4,7 +4,7 @@ export interface PromptItem {
     title: string;
     prompt: string;
     tags: string[];
-    cameraAngle: 'Original' | 'Low Angle' | 'Eye Level';
+    cameraAngle: 'Original' | 'Low Angle' | 'Eye Level' | 'High Angle';
 }
 
 export type CopiedState = string | null; // Stores the ID of the copied item
