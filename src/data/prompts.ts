@@ -360,6 +360,40 @@ export const mockPrompts: PromptItem[] = [
         prompt: '請完整保留原始汽車主體，禁止重新生成或修改汽車的外觀、比例、透視與拍攝角度汽車為畫面唯一焦點，需保持真實實車比例呈現，避免任何模型車或縮小感。背景為海港碼頭的一小段區域，而非整體海港或海岸城鎮全景。前景地面為粗糙灰色水泥碼頭，表面帶有自然使用痕跡，例如細小裂紋、淡淡水漬與些微磨損。碼頭地面僅在車輛周圍後方短距離可見，不延伸形成長距離透視。畫面後方可見一小段平靜海面，海水呈現蔚藍色並反射天空光線。海面僅作為近距離背景元素存在，不形成廣闊海景。遠處沿海岸線可隱約看到一排色彩繽紛的小型建築，但建築僅呈現模糊的局部立面，顏色包含柔和的藍色、綠色、黃色與橙色。建築高度與比例保持低矮，不顯示完整街區或大型城鎮景觀。建築後方可隱約出現柔焦的綠色山坡輪廓，但僅作為背景色塊存在，不呈現完整山體或遠景地形。天空為明亮藍天，點綴少量白雲，自然陽光照射整個場景，形成清晰且柔和的陰影與反射。畫面中不出現任何船隻或其他大型物體，以避免建立過大的尺度參考。整體構圖為貼近車輛拍攝的海港碼頭環境片段，背景元素保持尺度壓縮，使汽車保持畫面主體並呈現真實比例。',
         tags: ['港邊', '戶外'],
         cameraAngle: 'Original',
+    },
+    {
+        id: '46',
+        title: 'Parking',
+        imageUrl: '/images/46.webp',
+        prompt: 'Preserve the original car exactly as it is.Do not regenerate, modify, resize, or alter the car’s appearance, proportions, perspective, or camera angle.The car must remain the primary subject with realistic full-scale vehicle proportions.The background represents a small section of an urban parking lot.The ground surface is gray concrete parking pavement with white parking lines, visible only near the car.The pavement shows subtle wear, faint tire marks, and small cracks.The parking surface does not contain any concrete wheel stops or obstacles, keeping the ground simple and open.Behind the vehicle appears a short section of silver-gray noise barrier wall, with faint distant city buildings behind it.The sky is bright blue with a few clouds under natural daylight.The scene resembles realistic automotive photography in a city parking lot.',
+        tags: ['Parking', '戶外'],
+        cameraAngle: 'Original',
+    },
+    {
+        id: '47',
+        title: 'Parking',
+        imageUrl: '/images/47.webp',
+        prompt: '請完整保留原始汽車主體，禁止重新生成或修改汽車的外觀、比例、透視與拍攝角度。汽車為畫面唯一焦點，需以真實實車比例呈現，避免任何模型車或縮小感。背景為建築物入口處的一小段自動停車系統區域，而非整個停車設施入口。車輛停放在一個圓形金屬停車轉盤上。轉盤尺寸為標準汽車停車轉盤比例，直徑僅略大於一輛普通轎車，轉盤邊緣為低矮金屬環形結構，緊貼地面，不形成高大的機械平台。建築入口位於車輛前方，為一個橘色邊框的矩形入口結構。門框尺寸接近普通車庫入口大小，不呈現大型停車塔或工業設備入口。建築外牆為現代風格，表面為白色與淺灰色牆面，材質簡潔乾淨。牆面僅呈現局部立面，不顯示整棟建築高度。畫面左側可見一個小型藍色管理亭或設備小屋，尺寸接近普通保全亭大小。小屋旁可見一輛自行車與一個橘色交通錐，但兩者尺寸保持真實比例，明顯小於汽車。畫面右側牆面上可見一個紅色消防箱與少量標示牌，這些元素僅作為牆面細節存在，不形成主要視覺焦點。地面為乾淨的混凝土或建築入口地坪，表面略帶自然磨損與細微紋理。光線為明亮自然日光，上方建築結構在部分區域投下柔和陰影，使畫面具有真實建築環境氛圍。整體構圖為貼近車輛拍攝的建築入口場景，背景尺度壓縮，使汽車保持畫面主體並呈現真實比例。',
+        tags: ['Parking', '戶外'],
+        cameraAngle: 'Original',
+    },
+    {
+        id: '48',
+        title: '公園',
+        imageUrl: '/images/48.webp',
+        prompt: '請完整保留原始汽車主體，禁止重新生成或修改汽車的外觀、比例、透視與拍攝角度汽車為畫面唯一焦點，需保持真實實車比例呈現，避免任何模型車或縮小感。背景為城市街道的一小段區域，而非整個街區。畫面左側可見一棟白色建築物的局部立面，牆面上排列著幾個矩形窗戶。畫面僅顯示建築物的一小段外牆，而不呈現整棟建築高度。建築物周圍有幾棵秋季街道樹，樹葉呈金黃色。其中一棵稍大的樹位於畫面中央偏左，但仍保持普通街道樹比例，不形成巨大樹冠。畫面右側可見另一棟較舊風格建築物的部分牆面，外觀略顯老舊，但只顯示局部結構。建築前方有一排低矮的綠色樹籬，高度約在膝蓋到腰部之間。樹籬前方放置兩張木製公園長椅，尺寸為普通街道長椅大小，明顯小於汽車。地面為城市人行道與道路邊緣，表面散落著少量金黃色落葉，呈現秋季氛圍。天空為陰沉的灰色雲層，光線柔和且漫射，使整體色調略偏冷。攝影視角為街道高度略微抬高的近距離構圖，畫面集中於汽車與周圍街景，使汽車保持主要比例。整體氛圍呈現寧靜、略帶蕭瑟的秋季城市街景。',
+        tags: ['公園', '戶外'],
+        cameraAngle: 'Low Angle',
+    },
+    {
+        id: '49',
+        title: '公園',
+        imageUrl: '/images/49.webp',
+        prompt: '請完整保留原始汽車主體，禁止重新生成或修改汽車的外觀、比例、透視與拍攝角度汽車為畫面唯一焦點，需保持真實實車比例呈現，避免任何模型車或縮小感。背景為城市街道的一小段區域，而非整個街區。畫面左側可見一棟白色建築物的局部立面，牆面上排列著幾個矩形窗戶。畫面僅顯示建築物的一小段外牆，而不呈現整棟建築高度。建築物周圍有幾棵秋季街道樹，樹葉呈金黃色。其中一棵稍大的樹位於畫面中央偏左，但仍保持普通街道樹比例，不形成巨大樹冠。畫面右側可見另一棟較舊風格建築物的部分牆面，外觀略顯老舊，但只顯示局部結構。建築前方有一排低矮的綠色樹籬，高度約在膝蓋到腰部之間。樹籬前方放置兩張木製公園長椅，尺寸為普通街道長椅大小，明顯小於汽車。地面為城市人行道與道路邊緣，表面散落著少量金黃色落葉，呈現秋季氛圍。天空為陰沉的灰色雲層，光線柔和且漫射，使整體色調略偏冷。攝影視角為街道高度略微抬高的近距離構圖，畫面集中於汽車與周圍街景，使汽車保持主要比例。整體氛圍呈現寧靜、略帶蕭瑟的秋季城市街景。',
+        tags: ['公園', '戶外'],
+        cameraAngle: 'Original',
     }
+
+
 
 ];
