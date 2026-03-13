@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import Hero from './components/Hero';
 import PromptGrid from './components/PromptGrid';
 import HowItWorks from './components/HowItWorks';
@@ -8,6 +9,10 @@ import { Github, Instagram } from 'lucide-react';
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
+      <Helmet>
+        <title>Carscape AI | Generate Stunning Car Photography</title>
+        <meta name="description" content="Discover curated AI prompts for hyper-realistic car photography." />
+      </Helmet>
 
       <main className="flex-grow">
         <Hero />

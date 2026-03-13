@@ -23,7 +23,7 @@ const PromptCard: React.FC<PromptCardProps> = ({ item }) => {
             <div className={`relative aspect-square overflow-hidden bg-gray-200 ${!isLoaded ? 'animate-pulse' : ''}`}>
                 <img
                     src={item.imageUrl.startsWith('/') ? `${import.meta.env.BASE_URL}${item.imageUrl.slice(1)}` : item.imageUrl}
-                    alt={item.title}
+                    alt={`${item.title} - AI Car Photography Prompt (${item.tags.join(', ')})`}
                     onLoad={() => setIsLoaded(true)}
                     className={`
                         w-full h-full object-cover transition-all duration-700 group-hover:scale-105
