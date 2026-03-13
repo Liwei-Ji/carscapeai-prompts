@@ -416,5 +416,13 @@ export const mockPrompts: PromptItem[] = [
         prompt: 'Please completely retain the original car body, do not regenerate or modify the car\'s appearance, proportions, perspective, or camera angle. The car must be the sole focus of the frame and presented in realistic real-world proportions, avoiding any model-car or miniature look. The background is a scenic photo depicting the Tokyo Tower. The Tokyo Tower is located on the left side of the frame, with its towering red steel structure and white top standing out strikingly against the clear blue sky, set off by dense green trees and some modern skyscrapers beneath it. The foreground is a vivid green lawn, with an isolated slender tree slightly left of the center. In the upper right corner of the frame, a blooming cherry blossom branch reaches in; the pinkish-white flowers contrast sharply with the azure sky and layered white clouds. The overall lighting is bright, presenting a clear and sunny spring atmosphere. The composition uses a wide-angle perspective with relatively shallow depth of field. The background buildings are softly blurred to highlight the beauty of the Tokyo Tower and cherry blossoms, creating a fresh, tranquil, and vibrant artistic conception.',
         tags: ['Tokyo Tower', 'Outdoor'],
         cameraAngle: 'High Angle',
+    },
+    {
+        id: '53',
+        title: 'Car Wash',
+        imageUrl: '/images/53.webp',
+        prompt: 'Please completely retain the original car body, do not regenerate or modify the car\'s appearance, proportions, perspective, or camera angle. The car must be the sole focus of the frame and presented in realistic real-world proportions, avoiding any model-car or miniature look. The background is a scenic photo depicting the Tokyo Tower. The Tokyo Tower is located on the left side of the frame, with its towering red steel structure and white top standing out strikingly against the clear blue sky, set off by dense green trees and some modern skyscrapers beneath it. The foreground is a vivid green lawn, with an isolated slender tree slightly left of the center. In the upper right corner of the frame, a blooming cherry blossom branch reaches in; the pinkish-white flowers contrast sharply with the azure sky and layered white clouds. The overall lighting is bright, presenting a clear and sunny spring atmosphere. The composition uses a wide-angle perspective with relatively shallow depth of field. The background buildings are softly blurred to highlight the beauty of the Tokyo Tower and cherry blossoms, creating a fresh, tranquil, and vibrant artistic conception.',
+        tags: ['Wash', 'Outdoor', 'Lifestyle'],
+        cameraAngle: 'Original',
     }
 ];
