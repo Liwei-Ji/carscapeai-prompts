@@ -480,5 +480,21 @@ export const mockPrompts: PromptItem[] = [
         prompt: 'Only replace the background with a modern city, while retaining all elements from the original photo. Only change the white background based on the following instructions. The foreground is a flat gray paving stone or slab road surface, occupying only about 25–30% of the lower frame, serving as a static parking ground, not extending far, and not forming a street or vanishing point. The midground is the building facade behind the car, including glass and brick modern architectural exterior walls. The buildings exist in a vertical composition with controlled spacing, not forming narrow streets or deep extensions. Supporting elements are scattered green trees located between or in front of buildings, used only to soften the frame without surrounding or blocking the vehicle. The light is bright natural daylight (approaching noon or afternoon), with clear but not dramatic shadows, used to emphasize the car body\'s metallic reflections and architectural material details. The overall style is realistic, high-end urban automotive commercial photography. The background proportions must strictly conform to the car\'s scale, ensuring the car looks like it is realistically parked in the urban space, rather than being placed in an oversized city scene.',
         tags: ['Urban', 'City', 'Outdoor'],
         cameraAngle: 'Eye Level',
+    },
+    {
+        id: '61',
+        title: 'Tokyo Tower',
+        imageUrl: '/images/61.webp',
+        prompt: '同時保留原始照片的所有元素。請僅根據以下說明變更白色背景 背景僅可替換為東京鐵塔的風景照片。東京鐵塔位於畫面左側，其高聳的紅色鋼鐵結構與白色塔頂在清澈的藍天映襯下格外醒目，下方搭配茂密的綠樹以及一些現代摩天大樓。前景是一片鮮綠的草地。',
+        tags: ['Tokyo Tower', 'Outdoor'],
+        cameraAngle: 'Eye Level',
+    },
+    {
+        id: '62',
+        title: 'Beach Side',
+        imageUrl: '/images/62.webp',
+        prompt: '同時保留原始照片的所有元素。請僅根據以下說明變更白色背景 背景僅可替換為海邊風景照片。前景是一片淺藍色的海水，海浪輕輕拍打著沙灘，沙灘上散落著貝殼和海藻。背景是一片蔚藍的天空，天空中漂浮著幾朵白雲。',
+        tags: ['Beach Side', 'Outdoor'],
+        cameraAngle: 'Eye Level',
     }
 ];
