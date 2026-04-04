@@ -197,7 +197,7 @@ export const mockPrompts: PromptItem[] = [
         id: '25',
         title: 'Forest Trip',
         imageUrl: '/images/25.webp',
-        prompt: 'The background is set in a realistic outdoor winter snow scene. The foreground is a large area of flat and compressed snow-covered ground, with the snow surface having a slightly rough graininess and visible faint vehicle driving marks and natural wear textures. The snowy ground needs to present a cold-toned reflective light, and clear and natural contact shadows and weight bearing should appear under the car tires to ensure the car stands stably on the ground. The midground consists of sparsely arranged coniferous trees and low shrub thickets, with the trees covered in a thin layer of snow and naturally spaced, not forming a dense forest. Low guardrails or fence structures can appear, but the proportions must be kept away from the car and not be too prominent. The background is a series of undulating low mountain ranges, with the mountains covered in dark forests and localized snow accumulation. The sense of distance is clear but not exaggerated, and it should not be pulled in or form an oppressive background. The sky is a clear light blue winter sky, with very few or no visible clouds. The overall light is low-angle natural daylight with a cool color temperature. The shadow direction must be consistent with the original car photo, slightly long but soft. The camera angle is a real outdoor automotive photography perspective, with the frame tightly cropped to the relationship between the car and the ground, avoiding wide-angle exaggeration, landscape photography composition, or zooming out. The overall style is a high-realism outdoor automotive real-shot effect, with correct proportions and natural perspective, no model, miniature scene, or texture feel.',
+        prompt: 'Please fully retain the original car body; do not regenerate or modify the appearance, proportions, perspective, or camera angle of the car. The car is the only focal point of the image and must be presented in realistic proportions, avoiding any model-car or scaled-down appearance. The car should occupy about 60–70% of the frame width, positioned in the center, with the car body slightly facing the viewer. Only replace the background with a static off-road photography scene in a forest environment. The composition is horizontal with a normal human eye level or slightly downward viewing angle, avoiding low-angle and exaggerated perspective. The foreground is a flat, short-distance dirt or gravel ground, occupying only about 25–30% of the lower frame, without extending far or forming a straight road or vanishing point. The midground consists of low forest floor and shrub vegetation, with the vegetation height controlled and clearly lower than the car roof, not surrounding or blocking the vehicle, serving only as a transition layer. The background consists of vertically arranged tree trunks and dense but receding canopies, with a soft blur in the background but without strong bokeh or spatial stretching effects. The light is natural daylight, soft and even, without strong shadows, used to emphasize the car body materials and off-road details. The overall style is realistic, high-end off-road automotive commercial photography. The background proportions must strictly conform to the car\'s scale, ensuring the car looks like it is realistically parked in the scene, rather than being placed in an oversized forest environment.',
         tags: ['Off-road', 'Forest', 'Dirt'],
         cameraAngle: 'Eye Level',
     },
@@ -496,5 +496,29 @@ export const mockPrompts: PromptItem[] = [
         prompt: '同時保留原始照片的所有元素。請僅根據以下說明變更白色背景 背景僅可替換為海邊風景照片。前景是一片淺藍色的海水，海浪輕輕拍打著沙灘，沙灘上散落著貝殼和海藻。背景是一片蔚藍的天空，天空中漂浮著幾朵白雲。',
         tags: ['Beach Side', 'Outdoor'],
         cameraAngle: 'Eye Level',
+    },
+    {
+        id: '63',
+        title: 'Rally Race',
+        imageUrl: '/images/63.webp',
+        prompt: 'The background is set in a realistic off-road rally scene. The foreground is a rough dirt or gravel road surface, with clear ground textures and mud/gravel effects, serving as a close-up ground base. The midground consists of sparse shrubs, grasses, and low vegetation, with the vegetation height lower than the vehicle\'s hood and naturally distributed, not forming an artificial green plant arrangement. The background is composed of mountains and hills, with the mountains made of rocks and dark forests, the background mountain range continuous but not overpowering the foreground visual. The sky is bright-toned with light clouds or clean blue sky, with natural light shining, and shadows consistent with those in the original car photo. The camera angle is a close-up outdoor photography perspective, with the frame cropped tightly to the junction of the vehicle and background, strictly avoiding cities, buildings, or artificial road signs.',
+        tags: ['Rally', 'Off-road', 'Dirt'],
+        cameraAngle: 'Eye Level',
+    },
+    {
+        id: '64',
+        title: 'Forest Trip',
+        imageUrl: '/images/64.webp',
+        prompt: '同時保留原始照片的所有元素。請僅根據以下說明變更白色背景 背景僅可替換為森林環境中的靜態越野攝影場景。構圖應為水平方向，視角與正常人眼視線齊平或略微向下，避免低角度拍攝和誇張的透視效果。前景為平坦的近距離泥土或碎石地面，僅佔據畫面下方約25%至30%的面積，不得延伸過遠，也不得形成直線道路或消失點。中景由低矮的林地和灌木植被構成，植被高度應控制在一定範圍內，明顯低於車頂，不得環繞或遮擋車輛，僅作為過渡層。背景由垂直排列的樹幹和濃密但逐漸後退的樹冠構成，背景虛化柔和，但無明顯的散景或空間拉伸效果。光線採用自然日光，柔和均勻，無強烈陰影，用於突出車身質地和越野細節。整體風格為寫實的高階越野車商業攝影。背景比例必須嚴格與車輛比例相符，確保車輛看起來像是真實地停放在場景中，而不是被放置在一個過大的森林環境中。',
+        tags: ['Off-road', 'Forest', 'Dirt'],
+        cameraAngle: 'Original',
+    },
+    {
+        id: '65',
+        title: 'Snowy Field',
+        imageUrl: '/images/65.webp',
+        prompt: 'The background is set in a realistic outdoor winter snow scene. The foreground is a large area of flat and compressed snow-covered ground, with the snow surface having a slightly rough graininess and visible faint vehicle driving marks and natural wear textures. The snowy ground needs to present a cold-toned reflective light, and clear and natural contact shadows and weight bearing should appear under the car tires to ensure the car stands stably on the ground. The midground consists of sparsely arranged coniferous trees and low shrub thickets, with the trees covered in a thin layer of snow and naturally spaced, not forming a dense forest. Low guardrails or fence structures can appear, but the proportions must be kept away from the car and not be too prominent. The background is a series of undulating low mountain ranges, with the mountains covered in dark forests and localized snow accumulation. The sense of distance is clear but not exaggerated, and it should not be pulled in or form an oppressive background. The sky is a clear light blue winter sky, with very few or no visible clouds. The overall light is low-angle natural daylight with a cool color temperature. The shadow direction must be consistent with the original car photo, slightly long but soft. The camera angle is a real outdoor automotive photography perspective, with the frame tightly cropped to the relationship between the car and the ground, avoiding wide-angle exaggeration, landscape photography composition, or zooming out. The overall style is a high-realism outdoor automotive real-shot effect, with correct proportions and natural perspective, no model, miniature scene, or texture feel.',
+        tags: ['Winter', 'Snow', 'Outdoor'],
+        cameraAngle: 'Original',
     }
 ];
