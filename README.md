@@ -7,13 +7,13 @@
 
 ---
 
-## Key Features
+## Features
 
--   **Professional-Grade Prompts**: Covers a wide range of realistic styles, including Modern Urban, Race Tracks, Winter Snow, and even Lunar Surface.
+-   **Professional Grade Prompts**: Covers a wide range of realistic styles, including Modern Urban, Race Tracks, Winter Snow, and even Lunar Surface.
 -   **Technical Metadata**: Every prompt includes a specific **Camera Angle** recommendation to ensure accurate visual results.
--   **One-Click Copy**: Instantly copy high-quality, tested prompts to use in AI models like Gemini.
+-   **One Click Copy**: Instantly copy high-quality, tested prompts to use in AI models.
 -   **Dynamic Filtering**: An intuitive Tag-based filtering system helps you find the perfect inspiration among dozens of scenes.
--   **Optimized for Gemini**: Prompt structures are specifically tuned for Gemini’s image understanding and generation logic, maintaining car details and proportions.
+-   **Optimized for AI Model**: Prompt structures are specifically tuned for AI Model’s image understanding and generation logic, maintaining car details and proportions.
 
 ---
 
@@ -25,35 +25,6 @@
 
 ---
 
-## Built With
-
-- **React & TypeScript**: Delivering a responsive and type-safe user experience.
-- **Tailwind CSS**: Crafted with a modern, high-end aesthetic.
-- **Vite**: Optimized for lightning-fast performance and efficient asset handling.
-
----
-
-## Local Setup
-
-If you wish to run this project locally:
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/Liwei-Ji/carscapeai-prompts.git
-
-# 2. Enter the directory
-cd carscapeai-prompts
-
-# 3. Install dependencies
-npm install
-
-# 4. Start the development server
-npm run dev
-```
-
----
-
 ## Connect
 
--   **Author**: Liwei
 -   **Instagram**: [@64_jpw](https://www.instagram.com/64_jpw/)
