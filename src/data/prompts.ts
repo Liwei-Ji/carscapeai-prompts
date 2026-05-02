@@ -665,5 +665,13 @@ export const mockPrompts: PromptItem[] = [
         prompt: 'The background is set in a professional race track pit lane static photography scene. The image features a three-part depth structure: the lower foreground is a light-colored concrete pit lane ground, occupying about 25–30% of the lower frame. The ground is flat, with no extended roads or vanishing points. Subtle red and white curb lines are visible at the very bottom. The midground, located behind the car, includes a low pit wall, metal railings, and track fences, with the structure arranged horizontally to build correct proportions and spatial depth. The background consists of neatly repeated grandstand structures, with low hills or sandy terrain visible behind them. Above is a large area of cloudy sky with soft, low-contrast, natural daylight. The overall background must be a static, balanced, and realistic commercial automotive photography style, without straight roads, extending road surfaces, grass higher than the vehicle, city streets, or motion blur.',
         tags: ['Track', 'Racing', 'Pit Lane'],
         cameraAngle: 'Eye Level',
+    },
+    {
+        id: '84',
+        title: 'Autumn Pit Lane',
+        imageUrl: '/images/84.webp',
+        prompt: 'The scene is a highly realistic close-up automotive photography setup in a professional race track pit lane environment. A scale model car is positioned very close to the camera, dominating the foreground and appearing large and life-sized in proportion, with sharp focus and fine surface details clearly visible. The ground is covered with fallen autumn leaves in shades of orange and brown, shown with realistic texture and scale matching the car. The background features a vibrant array of trees with autumn foliage in orange, red, and yellow, along with some bare branches against a pale, overcast sky. A dense hedge of green bushes appears to the right. Use a shallow depth of field (bokeh) so that the background is softly blurred, reinforcing the sense of scale and making the car appear significantly larger than its surroundings. The composition is a low-angle close-up shot (macro-style perspective), making the car look powerful and prominent. Lighting is soft and diffused, like an overcast day, with realistic shadows and reflections on the car surface. The final image should strongly convey a realistic full-size car illusion despite being a model, with cinematic depth and professional automotive photography quality.',
+        tags: ['Autumn', 'Macro', 'Pit Lane'],
+        cameraAngle: 'Original',
     }
 ];
