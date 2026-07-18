@@ -1,0 +1,40 @@
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import { Github, Instagram } from 'lucide-react';
+
+const Layout: React.FC = () => (
+    <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
+        <main className="flex-grow">
+            <Outlet />
+        </main>
+
+        <footer className="bg-white mt-20">
+            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+                <p className="text-sm text-gray-500">
+                    {/* Year differs between build-time SSG and client hydration only at
+                        the New Year boundary; suppress the (harmless) hydration warning. */}
+                    &copy; <span suppressHydrationWarning>{new Date().getFullYear()}</span> CarscapeAI. Created by Liwei.
+                </p>
+
+                <div className="flex space-x-8">
+                    <a
+                        href="https://github.com/Liwei-Ji/carscapeai-prompts"
+                        className="text-gray-500 hover:text-gray-900 hover:scale-110 transition-all duration-300"
+                        aria-label="GitHub"
+                    >
+                        <Github className="h-8 w-8" />
+                    </a>
+                    <a
+                        href="https://www.instagram.com/64_jpw/"
+                        className="text-gray-500 hover:text-pink-600 hover:scale-110 transition-all duration-300"
+                        aria-label="Instagram"
+                    >
+                        <Instagram className="h-8 w-8" />
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+);
+
+export default Layout;

@@ -1,5 +1,6 @@
 export interface PromptItem {
     id: string;
+    slug: string;
     imageUrl: string;
     title: string;
     prompt: string;

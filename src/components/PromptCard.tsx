@@ -1,6 +1,9 @@
-import React, { useState, useCallback, useEffect, useRef } from 'react';
+import React, { useState, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import type { PromptItem } from '../types';
 import { Copy, Check, Hash, Video } from 'lucide-react';
+import FadeInImage from './FadeInImage';
+import { assetUrl, excerpt, promptPath } from '../lib/site';
 
 interface PromptCardProps {
     item: PromptItem;
@@ -8,8 +11,7 @@ interface PromptCardProps {
 
 const PromptCard: React.FC<PromptCardProps> = ({ item }) => {
     const [isCopied, setIsCopied] = useState(false);
-    const [isLoaded, setIsLoaded] = useState(false);
-    const imgRef = useRef<HTMLImageElement>(null);
+    const to = promptPath(item.slug);
 
     const handleCopy = useCallback(() => {
         navigator.clipboard.writeText(item.prompt).then(() => {
@@ -18,47 +20,29 @@ const PromptCard: React.FC<PromptCardProps> = ({ item }) => {
         });
     }, [item.prompt]);
 
-    // With prerendered (SSG) HTML the image can finish loading before React
-    // hydrates and attaches onLoad, so that load event is missed and the
-    // fade-in never fires. Catch an already-complete image after mount.
-    useEffect(() => {
-        if (imgRef.current?.complete && imgRef.current.naturalWidth > 0) {
-            setIsLoaded(true);
-        }
-    }, []);
-
     return (
         <div className="group flex flex-col bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">
-            {/* Image Section */}
-            <div className={`relative aspect-square overflow-hidden bg-gray-200 ${!isLoaded ? 'animate-pulse' : ''}`}>
-                <img
-                    ref={imgRef}
-                    src={item.imageUrl.startsWith('/') ? `${import.meta.env.BASE_URL}${item.imageUrl.slice(1)}` : item.imageUrl}
-                    alt={`${item.title} - AI Car Photography Prompt (${item.tags.join(', ')})`}
-                    onLoad={() => setIsLoaded(true)}
-                    className={`
-                        w-full h-full object-cover transition-all duration-700 group-hover:scale-105
-                        ${isLoaded ? 'opacity-100 scale-100' : 'opacity-0 scale-110'}
-                    `}
-                    loading="lazy"
+            {/* Image links through to the prompt detail page */}
+            <Link to={to} aria-label={item.title} className="block">
+                <FadeInImage
+                    src={assetUrl(item.imageUrl)}
+                    alt={`${item.title} - AI car photography prompt (${item.tags.join(', ')})`}
+                    wrapperClassName="aspect-square"
                 />
-            </div>
+            </Link>
 
             {/* Content Section */}
             <div className="flex flex-col flex-grow p-5">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-primary-600 transition-colors">
-                    {item.title}
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    <Link to={to} className="hover:text-primary-600 transition-colors">
+                        {item.title}
+                    </Link>
                 </h3>
 
-                {/* Prompt Text Area */}
-                <div className="relative group/prompt mb-4 flex-grow">
-                    <div className="bg-gray-50 border border-gray-100 rounded-lg p-3 h-28 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
-                        <p className="font-mono text-xs text-gray-600 leading-relaxed break-words whitespace-pre-wrap">
-                            {item.prompt}
-                        </p>
-                    </div>
-                    <div className="absolute inset-0 bg-gradient-to-t from-gray-50 via-transparent to-transparent pointer-events-none opacity-50 group-hover/prompt:opacity-0 transition-opacity" />
-                </div>
+                {/* Excerpt — the full prompt lives on the detail page */}
+                <p className="text-sm text-gray-500 leading-relaxed mb-4 flex-grow">
+                    {excerpt(item.prompt, 120)}
+                </p>
 
                 {/* Tags & Action */}
                 <div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
