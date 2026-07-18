@@ -1,21 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import Hero from './components/Hero';
 import PromptGrid from './components/PromptGrid';
 import HowItWorks from './components/HowItWorks';
 import { mockPrompts } from './data/prompts';
 import { Github, Instagram } from 'lucide-react';
 
-// Site-wide SEO constants — keep these in sync with the same tags in index.html.
+// Base URL for absolute links in structured data. The site-wide meta tags
+// (title/description/OG/canonical) live statically in index.html.
 // Update SITE_URL if the production domain changes.
 const SITE_URL = 'https://carscapeai-prompts.vercel.app';
-const SITE_TITLE = 'Carscape AI | AI Prompts for Model & Die-Cast Car Photos';
-const SITE_DESCRIPTION =
-  'Free, curated Gemini prompts that turn plain die-cast and model car photos into cinematic scenes — racetracks, neon streets, wilderness, the moon, and more.';
 
 const App: React.FC = () => {
-  // Structured data (schema.org ItemList) built from the prompt catalog so search
-  // engines can see the gallery contents once the page is prerendered.
+  // Structured data (schema.org ItemList) built from the prompt catalog. Rendered
+  // in the body so it is baked into the static HTML during prerendering (SSG).
   const promptListJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -37,11 +34,10 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
-      <Helmet>
-        <title>{SITE_TITLE}</title>
-        <meta name="description" content={SITE_DESCRIPTION} />
-        <script type="application/ld+json">{JSON.stringify(promptListJsonLd)}</script>
-      </Helmet>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(promptListJsonLd) }}
+      />
 
       <main className="flex-grow">
         <Hero />
